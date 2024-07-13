@@ -6,7 +6,7 @@ export default function Home() {
   <div className="flex justify-center min-w-[28rem]">
     <div className="text-center p-10 text-xl leading-10 text-emerald">
       <div className="flex justify-center">
-      <Image className="" src="/image.png" alt="image" width={170} height={20} />  
+      <Image className="pointer-events-none" src="/image.png" alt="image" width={170} height={20} />  
       </div>
       
       <h2 className="font-light text-2xl pt-8">Click Below to become a reviewer for 7-Eleven</h2>
